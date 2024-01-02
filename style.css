@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+    width:100%;
+    background-color: pink;
+}
+
+.calcul span,.calcul input{
+    font-size:80px
+}
+
+span {
+    letter-spacing: 5px; /* Ajustez la valeur selon vos besoins */
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black; /* Bordure inférieure */
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    width: 100px; /* Ajustez la largeur selon vos besoins */
+}
+
+button{
+    font-size:50px;
+    padding:10px 20px;
+    transition:0.5s background-color;
+    cursor:pointer
+}
+
+button:hover{
+    background-color:pink
+}
+
+#result{
+    margin-top:30px;
+}
