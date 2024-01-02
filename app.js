@@ -34,9 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 }, 2000); // Affiche le message de félicitations pendant 2 secondes
             } else {
                 document.getElementById("result").innerHTML = "Faux, réessaie mon Amélie chérie.";
+                document.getElementById("choix").value = ""
             }
         } else {
             document.getElementById("result").innerHTML = "Veuillez entrer un nombre valide.";
+            document.getElementById("choix").value = ""
         }
     }
 
