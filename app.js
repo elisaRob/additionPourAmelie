@@ -31,14 +31,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     document.getElementById("result").innerHTML = "";
                     generateNumbers();
                     document.getElementById("choix").value = ""; // Efface la valeur de l'input
-                }, 2000); // Affiche le message de félicitations pendant 2 secondes
+                }, 500); // Affiche le message de félicitations pendant 2 secondes
             } else {
-                document.getElementById("result").innerHTML = "Faux, réessaie mon Amélie chérie.";
                 document.getElementById("choix").value = ""
+                document.getElementById("result").innerHTML = "Faux, réessaie mon Amélie chérie.";
+              
             }
         } else {
-            document.getElementById("result").innerHTML = "Veuillez entrer un nombre valide.";
             document.getElementById("choix").value = ""
+            document.getElementById("result").innerHTML = "Veuillez entrer un nombre valide.";
+          
         }
     }
 
